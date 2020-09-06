@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60362750-6f46-4b49-8ae7-9d0d303321e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h8jFBxXdxz0BrdJK4t9rvqCmmT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574336697823" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructures1 - CA2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <module name="CA 1 SeanKnox" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-11.0.2\lib&quot; --add-modules=javafx.controls,javafx.fxml --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang.reflect=ALL-UNNAMED --add-opens java.base/java.text=ALL-UNNAMED --add-opens java.desktop/java.awt.font=ALL-UNNAMED" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60362750-6f46-4b49-8ae7-9d0d303321e8" name="Default Changelist" comment="" />
+      <created>1571057792758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571057792758</updated>
+      <workItem from="1571057796300" duration="105000" />
+      <workItem from="1571057941708" duration="67000" />
+      <workItem from="1571058044846" duration="4601000" />
+      <workItem from="1571136710629" duration="3929000" />
+      <workItem from="1571148753339" duration="8939000" />
+      <workItem from="1571233848464" duration="20156000" />
+      <workItem from="1571385925794" duration="30000" />
+      <workItem from="1571647234171" duration="8374000" />
+      <workItem from="1571659088173" duration="3518000" />
+      <workItem from="1571735854830" duration="13732000" />
+      <workItem from="1571817100599" duration="6666000" />
+      <workItem from="1571836900061" duration="7748000" />
+      <workItem from="1571908023005" duration="7065000" />
+      <workItem from="1571924094543" duration="103000" />
+      <workItem from="1571933186214" duration="333000" />
+      <workItem from="1571933902657" duration="5160000" />
+      <workItem from="1571991199356" duration="147000" />
+      <workItem from="1572008429328" duration="8064000" />
+      <workItem from="1572191294948" duration="44000" />
+      <workItem from="1572341590635" duration="2989000" />
+      <workItem from="1572345035798" duration="13382000" />
+      <workItem from="1572365110598" duration="3637000" />
+      <workItem from="1572368822240" duration="61000" />
+      <workItem from="1572612746092" duration="9000" />
+      <workItem from="1573030442456" duration="2617000" />
+      <workItem from="1573033435352" duration="747000" />
+      <workItem from="1573035698923" duration="901000" />
+      <workItem from="1573635573423" duration="1781000" />
+      <workItem from="1573640252216" duration="873000" />
+      <workItem from="1573641946653" duration="1155000" />
+      <workItem from="1573658649709" duration="3941000" />
+      <workItem from="1573724220664" duration="409000" />
+      <workItem from="1574082350808" duration="1337000" />
+      <workItem from="1574086874758" duration="1558000" />
+      <workItem from="1574176045903" duration="136000" />
+      <workItem from="1574179044833" duration="1589000" />
+      <workItem from="1574262431406" duration="2072000" />
+      <workItem from="1574330540109" duration="2143000" />
+      <workItem from="1574435158976" duration="41000" />
+      <workItem from="1575025269550" duration="3440000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143599000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599399533601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/1920.2.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1599399533601" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CA 1 SeanKnox</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>xstream-1.4.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

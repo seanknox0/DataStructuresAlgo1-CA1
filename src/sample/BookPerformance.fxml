@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" text="Book Performance" textFill="RED" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerBook">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ab1a1a;">
+         <children>
+            <TextField fx:id="customerName" layoutX="56.0" layoutY="14.0" promptText="Customer Name" />
+            <ChoiceBox fx:id="perfSelect" layoutX="292.0" layoutY="47.0" onAction="#perfSelected" prefWidth="120.0" style="-fx-background-color: white;" />
+            <Label layoutX="214.0" layoutY="51.0" text="Performance: " textFill="WHITE" />
+            <ChoiceBox fx:id="showSelect" layoutX="56.0" layoutY="47.0" onAction="#showSelected" prefWidth="150.0" style="-fx-background-color: white;" />
+            <Label layoutX="16.0" layoutY="51.0" text="Show:" textFill="WHITE" />
+            <Label layoutX="214.0" layoutY="18.0" text="Booking ID:" textFill="WHITE" />
+            <Button layoutX="466.0" layoutY="368.0" mnemonicParsing="false" onAction="#addBook" style="-fx-background-color: black;" text="Book Performance" textFill="WHITE" />
+            <Label layoutX="16.0" layoutY="18.0" text="Name:" textFill="WHITE" />
+            <Button layoutX="503.0" layoutY="14.0" mnemonicParsing="false" onAction="#mainMenu" style="-fx-background-color: black;" text="Main Menu" textFill="WHITE" />
+            <Label layoutX="19.0" layoutY="98.0" text="Select Seats:" textFill="WHITE" />
+            <TextField fx:id="genID" editable="false" layoutX="292.0" layoutY="14.0" prefHeight="25.0" prefWidth="120.0" />
+            <ListView fx:id="bookList" layoutX="-2.0" layoutY="401.0" onKeyPressed="#cancelBook" prefHeight="225.0" prefWidth="600.0" />
+            <Button layoutX="358.0" layoutY="368.0" mnemonicParsing="false" onAction="#resetBooks" style="-fx-background-color: black;" text="Reset Bookings" textFill="WHITE" />
+            <GridPane fx:id="gridBalcony" gridLinesVisible="true" layoutX="138.0" layoutY="88.0" prefHeight="75.0" prefWidth="306.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+            <GridPane fx:id="gridCircle" gridLinesVisible="true" layoutX="98.0" layoutY="175.0" prefHeight="75.0" prefWidth="306.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="50.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <GridPane fx:id="gridStall" gridLinesVisible="true" layoutX="98.0" layoutY="262.0" prefHeight="75.0" prefWidth="306.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="100.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="40.0" minWidth="40.0" prefWidth="40.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="50.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="25.0" minHeight="25.0" prefHeight="25.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <Button layoutX="251.0" layoutY="368.0" mnemonicParsing="false" onAction="#viewBooks" style="-fx-background-color: black;" text="View Bookings" textFill="WHITE" />
+         </children></AnchorPane>
+  </content>
+</TitledPane>
